@@ -14,3 +14,6 @@ git log history.txt  ## ver historial del archivo
 git show   ## cambios que han existido sobre un archivo
 
 git diff cb0ebb53f11f22d6468240612904d1bb43a653d8 954566c5c0255fad6d116cfd4b189f40918f8559 ## ver la diferencia entre 2 commit
+
+git reset 5a7db21d554566a924bc9885a5a7753b393bb85d --hard ## todo vuelve al estado anterior
+git reset 5a7db21d554566a924bc9885a5a7753b393bb85d --soft ## se vuelve a la versión sin tener en cuenta el staging

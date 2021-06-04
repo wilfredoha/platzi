@@ -3,7 +3,7 @@ git add texto.txt
 git rm --cached texto.txt  ## elimiar elemento del add -> en el status vulve a aparecer en rojo
 
 git config
-git config --list
+git config --list  ## lista de configuraciones de git
 git config --list --show-origin
 
 git config --global user.name  ## cambiar configuracion

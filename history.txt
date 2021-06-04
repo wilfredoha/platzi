@@ -1,6 +1,6 @@
 git status -> mirar el status de elementos de la carpeta (rojo ó verde)
-git add texto.txt
-git rm --cached texto.txt  ## elimiar elemento del add -> en el status vulve a aparecer en rojo
+git add history.txt
+git rm --cached history.txt  ## elimiar elemento del add -> en el status vulve a aparecer en rojo
 
 git config
 git config --list  ## lista de configuraciones de git
@@ -8,3 +8,9 @@ git config --list --show-origin
 
 git config --global user.name  ## cambiar configuracion
 git config --global user.email ## cambiar correo
+
+git log history.txt  ## ver historial del archivo
+
+git show   ## cambios que han existido sobre un archivo
+
+##

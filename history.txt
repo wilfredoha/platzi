@@ -22,3 +22,7 @@ git reset 5a7db21d554566a924bc9885a5a7753b393bb85d --soft ## se vuelve a la vers
 
 git checkout 98e9d7da700023d8a939567297099d1a28e0f02b history.txt  ## ver el archivo en un commit específico
 git checkout master history.txt  ## volver a la última versión
+
+git branch cabecera    ## creación de una rama  -> sigue parado en el master pero apuntando a 2 ramas master y cabecera(git show)
+
+git chechout cabecera  ## moverme entre ramas

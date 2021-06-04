@@ -1,0 +1,3 @@
+git status -> mirar el status de elementos de la carpeta (rojo ó verde)
+git add texto.txt
+git rm --cached texto.txt  ## elimiar elemento del add -> en el status vulve a aparecer en rojo

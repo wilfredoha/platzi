@@ -32,3 +32,8 @@ git checkout cabecera  ## moverme entre ramas
 git merge cabecera
 
 git commit -am "add y commit juntos. no funciona en archivos nuevos"
+
+## agregar un remoto
+git remote add origin https://github.com/wilfredoha/platzi.git
+git remote ## 
+git remote -v ## muestra el remoto del que se hace push o pull

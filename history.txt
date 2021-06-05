@@ -13,7 +13,10 @@ git log history.txt  ## ver historial del archivo
 git log --stat ## ver cambios especificos apartir del commit
 git log --all  ## muestra todos los logs
 git log --all --graph  ## muestra el arbol de logs
-git log --all --graph --decorate --online
+git log --all --graph --decorate --oneline  ## visualización de los en vista amigable
+## crear aliaspara ver el arbol decorado oneline
+alias arbol="git log --all --graph --decorate --oneline"
+
 
 git show   ## cambios que han existido sobre un archivo
 
@@ -57,3 +60,12 @@ cd
 ssh-add ~/.ssh/id_rsa   ## agregar la llave privada
 ## cambiar el remoto por ssh
 git remote set-url origin git@github.com:wilfredoha/platzi.git
+
+## CREACION DE TAGS
+1. Se copia el id 4ef8802
+
+git tag -a v0.1 -m "Resultado de las primeras clases" 4ef8802
+git tag muestra los tag que tengo
+git show-ref --tags ## saber a que commit está conectado un tag
+
+los tags son útiles en GitHuB

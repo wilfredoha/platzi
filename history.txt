@@ -74,5 +74,7 @@ git push origin --tags  ## enviar tags a GitHub
 
 el tag me hace referenacia al commit con el que se creo el tag en git
 
-git tag -d XYZ
+git tag -d XYZ  ## no borra el tag en GutHub de manera permanente
+
+git push origin :refs/tags/XYZ   ## elimina le tag de GitHub de manera permanente
 #################################################

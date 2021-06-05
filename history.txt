@@ -11,6 +11,8 @@ git config --global user.email ## cambiar correo
 
 git log history.txt  ## ver historial del archivo
 git log --stat ## ver cambios especificos apartir del commit
+git log --all  ## muestra todos los logs
+git log --all --graph  ## muestra el arbol de logs
 
 git show   ## cambios que han existido sobre un archivo
 

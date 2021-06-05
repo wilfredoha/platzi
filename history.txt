@@ -44,3 +44,11 @@ git pull origin master --allow-unrelated-histories ## fucionar lo que hay en el 
 git push origin master
 
 ## SSH
+ssh-keygen -t rsa -b 4096 -C "wilfredoholguin76@gmail.com" ## creacion de llaves SSH
+## la llave se crea en la carpeta .ssh del usuario
+
+eval $(ssh-agent -s)  ## validar que está activo el agente ssh
+
+cd ~/.ssh ## nos vamos a la carpeta que contiene las llaves
+cd 
+ssh-add ~/.ssh/id_rsa   ## agregar la llave privada

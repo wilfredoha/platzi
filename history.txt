@@ -52,3 +52,5 @@ eval $(ssh-agent -s)  ## validar que está activo el agente ssh
 cd ~/.ssh ## nos vamos a la carpeta que contiene las llaves
 cd 
 ssh-add ~/.ssh/id_rsa   ## agregar la llave privada
+## cambiar el remoto por ssh
+git remote set-url origin git@github.com:wilfredoha/platzi.git

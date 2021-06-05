@@ -29,3 +29,5 @@ git checkout cabecera  ## moverme entre ramas
 
 ## desde master hago merge
 git merge cabecera
+
+git commit -am "add y commit juntos. no funciona en archivos nuevos"

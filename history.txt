@@ -24,6 +24,7 @@ git checkout 98e9d7da700023d8a939567297099d1a28e0f02b history.txt  ## ver el arc
 git checkout master history.txt  ## volver a la última versión
 
 git branch cabecera    ## creación de una rama  -> sigue parado en el master pero apuntando a 2 ramas master y cabecera(git show)
+git branch  ## muestra las ramas que tenga
 
 git checkout cabecera  ## moverme entre ramas
 

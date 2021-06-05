@@ -26,3 +26,6 @@ git checkout master history.txt  ## volver a la última versión
 git branch cabecera    ## creación de una rama  -> sigue parado en el master pero apuntando a 2 ramas master y cabecera(git show)
 
 git checkout cabecera  ## moverme entre ramas
+
+## desde master hago merge
+git merge cabecera

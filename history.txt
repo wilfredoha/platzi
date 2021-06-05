@@ -39,6 +39,8 @@ git remote ##
 git remote -v ## muestra el remoto del que se hace push o pull
 
 git pull origin master
-git pull origin master --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories ## fucionar lo que hay en el remoto con la rama local
 
 git push origin master
+
+## SSH

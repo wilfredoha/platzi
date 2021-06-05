@@ -61,6 +61,7 @@ ssh-add ~/.ssh/id_rsa   ## agregar la llave privada
 ## cambiar el remoto por ssh
 git remote set-url origin git@github.com:wilfredoha/platzi.git
 
+#################################################
 ## CREACION DE TAGS
 1. Se copia el id 4ef8802
 
@@ -69,3 +70,7 @@ git tag muestra los tag que tengo
 git show-ref --tags ## saber a que commit está conectado un tag
 
 los tags son útiles en GitHuB
+git push origin --tags  ## enviar tags a GitHub
+
+el tag me hace referenacia al commit con el que se creo el tag en git
+#################################################

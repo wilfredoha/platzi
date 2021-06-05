@@ -37,3 +37,8 @@ git commit -am "add y commit juntos. no funciona en archivos nuevos"
 git remote add origin https://github.com/wilfredoha/platzi.git
 git remote ## 
 git remote -v ## muestra el remoto del que se hace push o pull
+
+git pull origin master
+git pull origin master --allow-unrelated-histories
+
+git push origin master

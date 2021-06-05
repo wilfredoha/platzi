@@ -73,4 +73,6 @@ los tags son útiles en GitHuB
 git push origin --tags  ## enviar tags a GitHub
 
 el tag me hace referenacia al commit con el que se creo el tag en git
+
+git tag -d XYZ
 #################################################

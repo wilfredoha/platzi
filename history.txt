@@ -64,6 +64,7 @@ git remote set-url origin git@github.com:wilfredoha/platzi.git
 #################################################
 ## CREACION DE TAGS
 1. Se copia el id 4ef8802
+2c8c2b0
 
 git tag -a v0.1 -m "Resultado de las primeras clases" 4ef8802
 git tag muestra los tag que tengo

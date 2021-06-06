@@ -1,3 +1,9 @@
+#footer{
+	color: white;
+	text-align: center;
+	background: blue;
+}
+
 body{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;

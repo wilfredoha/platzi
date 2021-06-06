@@ -79,3 +79,7 @@ git tag -d XYZ  ## no borra el tag en GutHub de manera permanente
 
 git push origin :refs/tags/XYZ   ## elimina le tag de GitHub de manera permanente
 #################################################
+
+
+
+sp_detalle_con_pago_MULTIPLE_unidades_reporte

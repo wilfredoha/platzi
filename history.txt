@@ -80,6 +80,13 @@ git tag -d XYZ  ## no borra el tag en GutHub de manera permanente
 git push origin :refs/tags/XYZ   ## elimina le tag de GitHub de manera permanente
 #################################################
 
+## ver más información de las ramas
+git show-branch       
+git show-branch --all
 
+gitk  ## versión visual -- permite ver en una aplicación los detalles del repositorio
+
+## desde cabecera
+git push origin cabecera
 
 sp_detalle_con_pago_MULTIPLE_unidades_reporte

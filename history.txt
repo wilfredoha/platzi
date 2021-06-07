@@ -101,6 +101,9 @@ git rebase master -> se hace desde otra rama para pegar -> esto cambia la histor
 git stash  ## los cambios no se pierden, quedan guardados en un lugar temporal
 git stahs list ## muestra el lugar donde se guardaron los cambios
 git stash pop ## devuelve los cambios
+git stash branch nombre_rama -> crea automaticamnte la rama y se para en ella. Se debe hacer commit para que se guarden los cambios en esa rama. -> al regresar a master no se guradan los cambios
+-> forma útil de tener en temporal los cambios y poder moverse entre ramas y luego poder recuperarlos
+git stash drop elimina el stash dejando el proyecto en el último commit
 
 ## lo necesito para reportes unidades y fechas
 sp_detalle_con_pago_MULTIPLE_unidades_reporte

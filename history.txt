@@ -97,11 +97,8 @@ git remote -v
 git rebase master -> se hace desde otra rama para pegar -> esto cambia la historia de donde arrancó el branch. TRABAJO EN LOCAL
 ## CAMBIO SILECIOSO. ajusta los commit y no queda historia.
 
+## stash permite volver al cambio anterior
+git stash
+
 ## lo necesito para reportes unidades y fechas
 sp_detalle_con_pago_MULTIPLE_unidades_reporte
-
-
-
-
-** EXPERIMENTO 01 **
-** EXPERIMENTO 02 **

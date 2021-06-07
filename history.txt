@@ -89,5 +89,9 @@ gitk  ## versión visual -- permite ver en una aplicación los detalles del repo
 ## desde cabecera
 git push origin cabecera
 
+## crea otra fuente nueva para traer datos
+git remote add upstream https://github.com/wilfredoha/platzi.git
+git remote -v
+
 ## lo necesito para reportes unidades y fechas
 sp_detalle_con_pago_MULTIPLE_unidades_reporte

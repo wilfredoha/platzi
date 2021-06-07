@@ -99,3 +99,8 @@ git rebase master -> se hace desde otra rama para pegar -> esto cambia la histor
 
 ## lo necesito para reportes unidades y fechas
 sp_detalle_con_pago_MULTIPLE_unidades_reporte
+
+
+
+
+** EXPERIMENTO 01 **

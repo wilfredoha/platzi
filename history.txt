@@ -93,5 +93,9 @@ git push origin cabecera
 git remote add upstream https://github.com/wilfredoha/platzi.git
 git remote -v
 
+## rebase -> agarrar una rama entera y pegarla de regreso a la rama maestra -> es una mala practica para enviar a repositorios remotos. 
+git rebase master -> se hace desde otra rama para pegar -> esto cambia la historia de donde arrancó el branch. TRABAJO EN LOCAL
+## CAMBIO SILECIOSO. ajusta los commit y no queda historia.
+
 ## lo necesito para reportes unidades y fechas
 sp_detalle_con_pago_MULTIPLE_unidades_reporte

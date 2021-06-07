@@ -110,5 +110,23 @@ git clean --dry-run -> simular lo que se va a borrar sin borrarlo
 git clean -f -> hace un borrado de archivos, no elimina carpetas a mano. 
 ## lo que esté relacionado en .gitignore no se elimina
 
+## cherry-pick
+git cherry-pick ## traer commits viejos al head de un branch con el id del commit
+git cherry-pick id_del_commit
+
+## amend
+## The git commit –amend command modifies your latest commit. 
+## This command lets you change files in your last commit or your commit message. 
+## Your old commit is replaced with a new commit that has its own ID.
+git commit --amend -m "feat: Revised commit message"
+
+git reflog ## se ve todo - aquí podemos ver 
+## reset trae la posición que traía antes
+git reset --SOFT ## conserva el staging
+git reset --HARD ## resetea todo
+git reset HEAD@{2}
+git reset --HARD id_del_commit
+
+
 ## lo necesito para reportes unidades y fechas
 sp_detalle_con_pago_MULTIPLE_unidades_reporte
